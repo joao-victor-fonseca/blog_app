@@ -1,0 +1,19 @@
+<div class="container">
+  <h1 class="my-4">Create New Post</h1>
+
+  <%= form_with(model: @post, local: true, class: "row g-3") do |form| %>
+    <div class="col-md-6">
+      <%= form.label :title, class: "form-label" %>
+      <%= form.text_field :title, class: "form-control", placeholder: "Enter the title" %>
+    </div>
+
+    <div class="col-md-12">
+      <%= form.label :content, class: "form-label" %>
+      <%= form.text_area :content, rows: 5, class: "form-control", placeholder: "Write your content here..." %>
+    </div>
+
+    <div class="col-12">
+      <%= form.submit "Publish", class: "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>
