@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Ruby%20on%20Rails-%23CC0000?style=for-the-badge&logo=ruby&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-%2331595C?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" />
 </p>
 
 <p align="center">
