@@ -17,7 +17,10 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
-
+gem 'kaminari'
+gem 'bootstrap', '~> 5.3'
+gem 'sassc-rails'
+gem 'friendly_id', '~> 5.4.0'
 gem 'devise'
 gem 'kaminari'
 gem 'friendly_id', '~> 5.4.0' 
